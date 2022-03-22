@@ -18,7 +18,7 @@
   }
   
   .contenido {
-    width: 500px;
+    width: 650px;
     background-image: url('Imagenes/ondas_blancas.jpg');
     padding: 30px;
     margin: auto;
@@ -28,30 +28,24 @@
     color: black;
     box-shadow: 7px 13px 37px #000;
     text-align: center;
-    font-family: 'Corinthia';
+    font-family: '';
   }
+
+
   
-  .tituloinfo {
+  .Secciones{
     width: 100%;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
     background: #24303c;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
     color: #92b1d4;
   }
+
   
-  .infoinfo {
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
-    text-align: center;
-  }
+ 
