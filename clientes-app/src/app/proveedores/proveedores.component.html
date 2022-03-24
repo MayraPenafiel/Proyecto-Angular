@@ -12,7 +12,10 @@
       <div class="grid-item">
         <tr *ngFor="let prov of proveedores">
           <div class="card border-dark mb-4 " >
-          <div class="card-header"> {{prov.nombre}} </div>
+          <div class="card-header">
+            <p>{{prov.nombre}}</p>
+            
+          </div>
           <div class="card-body">
             <p>{{prov.descripcion}}</p>
             <p>{{prov.direccion}}</p>
